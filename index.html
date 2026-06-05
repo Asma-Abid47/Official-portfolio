@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Asma Abid — Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- ===== NAV ===== -->
+  <nav id="navbar">
+    <div class="nav-logo">AA</div>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg-text">SE</div>
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="dot"></span> Available for Internships & Projects
+      </div>
+      <h1 class="hero-name">
+        <span class="line" data-text="Asma">Asma</span>
+        <span class="line accent" data-text="Abid">Abid</span>
+      </h1>
+      <p class="hero-sub">Software Engineering Student <span class="sep">—</span> Age 19</p>
+      <p class="hero-desc">
+        Building elegant digital solutions through clean code, creative thinking, and a passion for technology that makes a difference.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Let's Talk</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="floating-shapes">
+      <div class="shape s1"></div>
+      <div class="shape s2"></div>
+      <div class="shape s3"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">01 — About Me</div>
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-img-wrap">
+            <div class="img-placeholder">
+              <div class="initials-big">AA</div>
+              <div class="img-ring"></div>
+              <div class="img-ring r2"></div>
+            </div>
+            <div class="about-badge">
+              <span class="badge-num">19</span>
+              <span class="badge-txt">Years Old</span>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num" data-target="5">0</span>+
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="8">0</span>+
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="2">0</span>
+              <span class="stat-label">Years Coding</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title">Crafting Code with <em>Purpose</em></h2>
+          <p>Hi! I'm Asma — a 19-year-old Software Engineering student with a deep love for building things that live on the internet. Whether it's a sleek UI or a robust backend, I bring curiosity and precision to everything I create.</p>
+          <p>I believe great software is about more than just functionality — it's about crafting experiences that feel intuitive, beautiful, and meaningful.</p>
+          <div class="about-list">
+            <div class="al-item"><i class="fas fa-graduation-cap"></i> Software Engineering Student</div>
+            <div class="al-item"><i class="fas fa-map-marker-alt"></i> Pakistan</div>
+            <div class="al-item"><i class="fas fa-code"></i> Full-Stack Enthusiast</div>
+            <div class="al-item"><i class="fas fa-brain"></i> AI & ML Explorer</div>
+          </div>
+          <a href="#contact" class="btn-primary mt">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title">What I <em>Work With</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-category="Frontend">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <h3>HTML5</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+          <span class="skill-pct">92%</span>
+        </div>
+
+        <div class="skill-card" data-category="Frontend">
+          <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+          <h3>CSS3</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          <span class="skill-pct">88%</span>
+        </div>
+
+        <div class="skill-card" data-category="Frontend">
+          <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+          <h3>JavaScript</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          <span class="skill-pct">80%</span>
+        </div>
+
+        <div class="skill-card" data-category="Frontend">
+          <div class="skill-icon"><i class="fab fa-react"></i></div>
+          <h3>React</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+          <span class="skill-pct">72%</span>
+        </div>
+
+        <div class="skill-card" data-category="Backend">
+          <div class="skill-icon"><i class="fab fa-python"></i></div>
+          <h3>Python</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+
+        <div class="skill-card" data-category="Backend">
+          <div class="skill-icon"><i class="fas fa-database"></i></div>
+          <h3>SQL / MySQL</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+          <span class="skill-pct">78%</span>
+        </div>
+
+        <div class="skill-card" data-category="Tools">
+          <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+          <h3>Git & GitHub</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+          <span class="skill-pct">82%</span>
+        </div>
+
+        <div class="skill-card" data-category="Tools">
+          <div class="skill-icon"><i class="fas fa-robot"></i></div>
+          <h3>Machine Learning</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+          <span class="skill-pct">65%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-title">Featured <em>Work</em></h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-num">01</div>
+          <div class="project-tags">
+            <span>Python</span><span>Machine Learning</span><span>Flask</span>
+          </div>
+          <h3>AI Study Assistant</h3>
+          <p>An intelligent web app that helps students organize study material, generate quizzes from notes, and track their learning progress using NLP techniques.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="proj-link live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">02</div>
+          <div class="project-tags">
+            <span>React</span><span>Node.js</span><span>MongoDB</span>
+          </div>
+          <h3>TaskFlow — Task Manager</h3>
+          <p>A full-stack productivity app with drag-and-drop task boards, real-time collaboration, and deadline notifications built with MERN stack.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="proj-link live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">03</div>
+          <div class="project-tags">
+            <span>HTML/CSS</span><span>JavaScript</span><span>API</span>
+          </div>
+          <h3>Weather Vista</h3>
+          <p>A beautiful weather dashboard with 7-day forecasts, animated weather icons, geolocation, and interactive maps using OpenWeather API.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="proj-link live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">04</div>
+          <div class="project-tags">
+            <span>Python</span><span>Tkinter</span><span>SQLite</span>
+          </div>
+          <h3>Student Record System</h3>
+          <p>A desktop application for managing student records, grades, attendance, and fee tracking with a clean GUI built in Python Tkinter and SQLite.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="proj-link live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">05</div>
+          <div class="project-tags">
+            <span>React Native</span><span>Firebase</span>
+          </div>
+          <h3>ShopEase — E-Commerce App</h3>
+          <p>A mobile-first shopping app with product listings, cart management, Firebase authentication, real-time database, and push notifications.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="proj-link live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">04 — Contact</div>
+      <h2 class="section-title">Let's <em>Connect</em></h2>
+      <p class="contact-sub">Have a project in mind or want to collaborate? I'd love to hear from you.</p>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="ci-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span class="ci-label">Email</span>
+              <span class="ci-val">asmaabid@email.com</span>
+            </div>
+          </div>
+          <div class="ci-item">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <span class="ci-label">LinkedIn</span>
+              <span class="ci-val">linkedin.com/in/asmaabid</span>
+            </div>
+          </div>
+          <div class="ci-item">
+            <i class="fab fa-github"></i>
+            <div>
+              <span class="ci-label">GitHub</span>
+              <span class="ci-val">github.com/asmaabid</span>
+            </div>
+          </div>
+          <div class="social-row">
+            <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-btn"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder=" " required />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder=" " required />
+            <label for="email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder=" " required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn-primary full">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent successfully!
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Asma Abid</div>
+      <p class="footer-copy">© 2025 Asma Abid. Crafted with <span class="heart">♥</span> & Code.</p>
+      <a href="#hero" class="back-top"><i class="fas fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
